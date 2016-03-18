@@ -1,0 +1,38 @@
+{
+  "name": "cadvisor-api",
+  "version": "0.0.0",
+  "description": "Node.js cadvisor api library",
+  "main": "lib/cadvisor-api.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node lib/cadvisor-api.js",
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfirek/cadvisor-api.git"
+  },
+  "keywords": [
+    "cadvisor",
+    "api",
+    "rest"
+  ],
+  "author": "Łukasz Firek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lfirek/cadvisor-api/issues"
+  },
+  "homepage": "https://github.com/lfirek/cadvisor-api#readme",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "nock": "^7.2.2"
+  }
+}
