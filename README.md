@@ -1,5 +1,8 @@
 # Cadvisor API Client
 
+[![Build Status](https://travis-ci.org/lfirek/cadvisor-api.svg?branch=master)](https://travis-ci.org/lfirek/cadvisor-api)
+[![Coverage Status](https://coveralls.io/repos/github/lfirek/cadvisor-api/badge.svg?branch=master)](https://coveralls.io/github/lfirek/cadvisor-api?branch=master)
+
 It's easy to use HTTP Client for any version of [Cadvisor API](https://github.com/google/cadvisor/blob/master/docs/api.md) (default : 1.3)
 
 Cadvisor Api Client using :
