@@ -1,6 +1,6 @@
 {
   "name": "cadvisor-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js cadvisor api library",
   "main": "lib/cadvisor-api.js",
   "directories": {
